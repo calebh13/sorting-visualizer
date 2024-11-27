@@ -1,5 +1,5 @@
 # sorting-visualizer
-Provides a graphical visualization of currently 3 sorting algorithms: insertion sort, mergesort, and quicksort.
+Provides a graphical visualization of 3 sorting algorithms: insertion sort, mergesort, and quicksort.
 
 Created by Caleb Hansen in Fall 2024 using [SFML](https://www.sfml-dev.org/index.php).
 ## Building
