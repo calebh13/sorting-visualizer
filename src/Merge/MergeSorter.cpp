@@ -15,7 +15,7 @@ bool MergeSorter::sort(void)
         }
         else
         {
-            size_t mid = (state->left + state->right) / 2;
+            int mid = (state->left + state->right) / 2;
             switch (state->nextInstruction)
             {
             case MergeSortState::instr::boundsCheck:
