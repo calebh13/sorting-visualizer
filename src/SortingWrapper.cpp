@@ -7,10 +7,11 @@ void SortingWrapper::getInput(void)
     std::cout << "Enter size of the array to sort (default 2500): ";
     std::getline(std::cin, buf);
     if (buf != "") size = stoi(buf);
+    list.resize(size);
 
     std::cout << "\nEnter the sorting algorithm to use.\nEnter 1 for insertion sort, 2 for mergesort, and 3 for quicksort (default 3): ";
     std::getline(std::cin, buf);
-    if (buf != "") alg = static_cast<SortingWrapper::algorithm>(stoi(buf) - 1);
+    if (buf != "") alg = static_cast<SortingWrapper::algorithm>(stoi(buf));
 
     std::cout << "\nEnter the maximum FPS (enter -1 for unlimited, default -1): ";
     std::getline(std::cin, buf);
