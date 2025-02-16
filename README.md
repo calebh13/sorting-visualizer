@@ -2,6 +2,11 @@
 Provides a graphical visualization of 3 sorting algorithms: insertion sort, mergesort, and quicksort.
 
 Created by Caleb Hansen in Fall 2024 using [SFML](https://www.sfml-dev.org/index.php).
+
+Video:
+
+[![Watch the video](https://img.youtube.com/vi/IFnWInCHGqw/0.jpg)](https://youtu.be/IFnWInCHGqw)
+
 ## Building
 If you use Linux, install SFML's dependencies using your system package manager. On Ubuntu and other Debian-based distributions you can use the following commands:
    ```
